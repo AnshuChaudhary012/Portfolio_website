@@ -1,0 +1,127 @@
+:root {       /* create varible of the color*/
+  --bg-color: #ffffff;
+  --text-color: #111111;
+  --blue-color: #0077ff;
+  --shadow-color: rgba(0,0,0,0.1);
+  --hero-color:rgba(201,208,219,255.1);
+}
+
+[data-theme="dark"] { 
+  --bg-color: #111111;
+  --text-color: #ffffff;
+  --blue-color: #1e90ff;
+  --shadow-color: rgba(255, 255, 255, 0.1);
+  --hero-color:rgba(255, 255, 255, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+  background: var(--bg-color);
+  box-shadow: 0 4px 4px var(--shadow-color);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--blue-color);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+#theme-toggle {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.section {
+    text-align: center;
+  padding: 4rem 2rem;
+  max-width: 100%;
+  margin: auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.project-card {
+  padding: 1rem;
+  border: 1px solid var(--blue-color);
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+
+.skill-list {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.skill-list li {
+  background: var(--blue-color);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  border-top: 1px solid #ccc;
+}
+
+.mainImage{
+  max-width: 40%;
+  width: 30%;
+  border-radius: 25%;
+  order: 1;
+   border: 2.5px solid var(--text-color);
+}
+
+.hero{
+  background-color: var(--hero-color);
+}
+
+.heroDiv{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  gap: 10px;
+}
+.pack {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
