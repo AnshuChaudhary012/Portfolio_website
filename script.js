@@ -12,9 +12,9 @@ toggleBtn.addEventListener("click", () => {
 
 // create motion effect in the hero section
 const texts = [
-      "learning react.js",
-      "learning JavaScript",
-      "solving problems"
+      " react.js",
+      " JavaScript",
+      " & solving problems"
     ];
 
     let count = 0;
@@ -26,7 +26,7 @@ const texts = [
       const element = document.getElementById('paraOfHero');
 
       if (count === texts.length) {
-        count = 1;
+        count = 0;
       }
 
       currentText = texts[count];

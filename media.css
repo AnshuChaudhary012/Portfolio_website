@@ -42,5 +42,15 @@
   }
 }
 
+@media (min-width: 800px) {
+  h1 {
+    font-size: 60px;
+  }
+  .paraOfHero{
+    font-size: 30px;
+  }
+}
+
+
 
 
