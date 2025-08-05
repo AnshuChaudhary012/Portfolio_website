@@ -26,7 +26,7 @@ const texts = [
       const element = document.getElementById('paraOfHero');
 
       if (count === texts.length) {
-        count = 0;
+        count = 1;
       }
 
       currentText = texts[count];
