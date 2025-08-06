@@ -32,7 +32,7 @@ body {
   align-items: center;
   padding: 1rem 1rem;
   background: var(--bg-color);
-  box-shadow: 0 4px 4px var(--shadow-color);
+  /* box-shadow: 0 4px 4px var(--shadow-color); */
 }
 
 .logo {

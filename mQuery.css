@@ -73,12 +73,12 @@ border: 2.5px solid var(--text-color);
   .about-image img {
     width: 950px;
     max-height: auto;
-    padding-top: 10px;
+    /* padding-top: 10px; */
     
   }
 
   .about-text {
-    padding-top: 1rem;
+    
   }
   
 }
