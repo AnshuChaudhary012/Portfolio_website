@@ -60,6 +60,36 @@ body {
   cursor: pointer;
 }
 
+.about-section {
+  padding: 4rem 1rem;
+  background-color: var(--bg-color);
+}
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.about-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 35px;
+}
+.about-image img {
+  max-width: 100%;
+  border-radius: 10%;
+  order: 1;
+   border: 2.5px solid var(--text-color);
+}
+.about-text h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
 .section {
     text-align: center;
   padding: 4rem 2rem;
