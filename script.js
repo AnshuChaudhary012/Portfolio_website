@@ -1,4 +1,7 @@
-const toggleBtn = document.getElementById("theme-toggle");
+
+// creating dark and light mode and switching the icon fo the sun and moon 
+
+const toggleBtn = document.getElementById("toggle-btn");
 
 toggleBtn.addEventListener("click", () => {
   const html = document.documentElement;
@@ -52,3 +55,7 @@ const texts = [
     }
 
     typeEffect();
+
+              // year in the footer
+        document.querySelector('.copyright').textContent = 
+            `© ${new Date().getFullYear()} Your Name. All rights reserved.`;
