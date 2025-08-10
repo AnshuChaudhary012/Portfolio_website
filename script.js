@@ -58,4 +58,4 @@ const texts = [
 
               // year in the footer
         document.querySelector('.copyright').textContent = 
-            `© ${new Date().getFullYear()} Your Name. All rights reserved.`;
+            `© ${new Date().getFullYear()} Anshu. All rights reserved.`;

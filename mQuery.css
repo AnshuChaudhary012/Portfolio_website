@@ -8,7 +8,7 @@
             .h1 {font-size: 10;}}
             .paraOfHero{ font-size: 8px;}
      
-.nav-links .about-nav{
+ .about-nav , .projects-nav{
    display: none;
   }
   .h1 {
@@ -74,7 +74,9 @@ border: 2.5px solid var(--text-color);
     /* padding-top: 10px; */
     
   }
-
+ .contact-title{
+      font-size: 1.4rem;
+    }
 }
 
 /* Large devices (tablets and small laptops) */
@@ -95,6 +97,10 @@ border: 2.5px solid var(--text-color);
     margin-left: 20px;
     margin-right: 20px;
     }
+       /* for contact section */
+    .contact-title{
+      font-size: 1.6rem;
+    }
  
 }
 /* extra large display */
@@ -111,6 +117,10 @@ border: 2.5px solid var(--text-color);
     justify-content: space-around;
     margin-left: 20px;
     margin-right: 20px;
+    }
+    /* for contact section */
+    .contact-title{
+      font-size: 2rem;
     }
 }
 
