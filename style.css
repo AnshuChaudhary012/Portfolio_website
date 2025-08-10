@@ -120,7 +120,7 @@ body {
 
 .about-text h2 {
   font-size: 2.5rem;
-  color: #2d3748;
+  color: var(--text-color);
   margin-bottom: 1.5rem;
   position: relative;
 }
@@ -139,7 +139,7 @@ body {
 .about-text p {
   font-size: 1.15rem;
   line-height: 1.8;
-  color: #4a5568;
+  color: var(--text-color);
   margin-top: 2.5rem;
   max-width: 90%;
 }
@@ -617,6 +617,6 @@ footer {
 }
 
 .copyright {
-  color: var(--text-color);
+  color: white;
   font-size: 0.9rem;
 }
