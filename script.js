@@ -1,5 +1,5 @@
 
-// creating dark and light mode and switching the icon fo the sun and moon 
+// creating dark and light mode and switching the icon of the sun and moon 
 
 const toggleBtn = document.getElementById("toggle-btn");
 
